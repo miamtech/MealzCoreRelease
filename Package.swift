@@ -20,7 +20,8 @@ let package = Package(
         // Targets can depend on other targets in this package and products from dependencies.
         .binaryTarget(
             name: "MealzCore",
-            path: "Sources/mealzcore.xcframework"
+            url: "https://github.com/miamtech/MealzCoreRelease/raw/release/5.10.2/mealzcore.zip",
+            checksum: "7c0b46aaeb4e4a9e0e3008070262505a069138870bbb49dd5ee4f57282a4ce64"
         )
     ]
 )
